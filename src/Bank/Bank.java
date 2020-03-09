@@ -9,13 +9,5 @@ public class Bank {
 
     }
 
-    public static Bank geben()
-    {
-        Bank();
-        while(true)
-        {
-            System.out.println("Huiii");
-        }
-        return b;
-    }
+
 }
