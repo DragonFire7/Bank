@@ -15,8 +15,12 @@ public abstract class Konto{
     }
 
     public void abheben(int betrag) {
+        kontostand = kontostand - betrag;
+    }
+
+    public void einzahlen(int betrag) {
         kontostand = kontostand + betrag;
     }
 
-    abstract void einzahlen(int betrag);
+
 }
