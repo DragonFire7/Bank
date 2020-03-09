@@ -1,7 +1,6 @@
 package Bank;
 
-public class Kunde {
+public class Kunde extends Person{
 
-    private String name;
-    private int Kunden;
+    private int kundenID;
 }
